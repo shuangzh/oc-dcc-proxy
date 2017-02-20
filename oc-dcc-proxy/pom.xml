@@ -15,7 +15,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.4.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -29,7 +29,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -40,8 +40,41 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
 
+		<dependency>
+			<groupId>org.mobicents.diameter</groupId>
+			<artifactId>jdiameter-api</artifactId>
+			<version>1.7.0.134</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.picocontainer</groupId>
+			<artifactId>picocontainer</artifactId>
+			<version>2.15</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mobicents.diameter</groupId>
+			<artifactId>jdiameter-impl</artifactId>
+			<version>1.7.0.134</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mobicents.protocols.sctp</groupId>
+			<artifactId>sctp-impl</artifactId>
+			<version>2.0.11</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mobicents.diameter</groupId>
+			<artifactId>jdiameter-ha-impl</artifactId>
+			<version>1.7.0.130</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mobicents.diameter</groupId>
+			<artifactId>mobicents-diameter-mux-jar</artifactId>
+			<version>1.7.0.74</version>
+		</dependency>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
