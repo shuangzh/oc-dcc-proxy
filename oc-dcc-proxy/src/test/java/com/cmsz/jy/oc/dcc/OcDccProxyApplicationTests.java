@@ -1,4 +1,4 @@
-package com.example;
+package com.cmsz.jy.oc.dcc;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

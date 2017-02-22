@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+
+    <cache name="proxycache"
+           maxEntriesLocalHeap="0"
+           timeToLiveSeconds="600">
+    </cache>
+
+</ehcache>
